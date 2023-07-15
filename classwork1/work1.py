@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 
 img = cv.imread('image/shurima.jpg', cv.IMREAD_GRAYSCALE)
-kernel_size = 15
+kernel_size = 20
 
 # สร้างเมทริกซ์เปล่าที่มีค่าเป็น 0
 kernel = np.zeros((kernel_size, kernel_size), np.float32)
